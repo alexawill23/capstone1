@@ -31,7 +31,7 @@ body {
 #banner {
     background-image: linear-gradient(to right, #824b0990,#583307);
     color:#fff; 
-    padding-top: 5%;}
+    padding-top: 1.5%;}
 
     .promo-title {
         font-size:80px
@@ -47,14 +47,23 @@ body {
 
 
     }
+
+    .promo-bar {
+        style: color #00000; 
+        background-color: #737297
+    }
     
     p {
         align-items: center;
         font-size: larger ;
         font-weight: 300;
-        text-align:center
-        
-        ;
+        text-align:center;
     }
+
+    
+
+
+<
+    
 
     

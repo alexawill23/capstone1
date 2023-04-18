@@ -1,57 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cookie Shop - Products</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Checkout</title>
+    <style>
+        /* Add your custom styles here */
+        /* ... */
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Cookie Shop</a>
-        <!-- Navbar content goes here -->
-    </nav>
+    <div class="checkout-container">
+        <h1>Checkout</h1>
+        <form action="process_checkout.php" method="post"> <!-- Action points to a server-side script for processing checkout logic -->
+            <!-- Display the items in the cart -->
+            <h2>Items in Cart</h2>
+            <ul>
+                <li>Cookie A - $2.99</li>
+                <li>Cookie B - $3.99</li>
+                <!-- Add more items dynamically based on the cart contents -->
+            </ul>
 
-    <div class="container mt-5">
-        <h1>Our Products</h1>
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="cookie1.jpg" class="card-img-top" alt="Cookie 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Chocolate Chip Cookie</h5>
-                        <p class="card-text">Delicious chocolate chip cookie made with real chocolate chips.</p>
-                        <p class="card-text">Price: $2.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="cookie2.jpg" class="card-img-top" alt="Cookie 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Oatmeal Raisin Cookie</h5>
-                        <p class="card-text">Classic oatmeal raisin cookie with plump raisins and hearty oats.</p>
-                        <p class="card-text">Price: $2.49</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="cookie3.jpg" class="card-img-top" alt="Cookie 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Sugar Cookie</h5>
-                        <p class="card-text">Sweet and soft sugar cookie with a hint of vanilla.</p>
-                        <p class="card-text">Price: $1.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <select name="payment_method" required>
+                <option value="" disabled selected>Choose Payment Method</option>
+                <option value="credit_card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="cash_on_delivery">Cash on Delivery</option>
+            </select>
+            <input type="submit" value="Place Order">
+        </form>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
