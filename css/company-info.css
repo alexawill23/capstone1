@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;   
+}
+
+body {
+    font-family:font-family: 'Cinzel', serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.background {
+    background-color: rgba(#4e2b04);
+}
+
+#nav-bar {
+    position: sticky; 
+    top: 0;
+    z-index: 10; 
+}
+.navbar-nav li a {
+    background-image: linear-gradient(to right, #7b3f00, #954535,#814141, #EADDCA)
+    padding: 0 !important; 
+
+
+}
+.navbar-nav li {
+ padding: 0 10px; 
+}
+.navbar-nav li a {
+    color: #552e05 !important; 
+    font-weight: 600; 
+
+    .header {
+        
+    }
