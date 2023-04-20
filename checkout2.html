@@ -3,10 +3,11 @@
 
 <head>
     <title>The Cookie Shoppe | Checkout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         /* Add your custom styles here */
         body {
-            background-image: url('images/Brown\ Cookie\ Shop\ Logo\ over\ and\ over.png');
+            background-image: url('images/Brown\ Cookie\ Shop\ Logo\ over\ and\ over.png'),transparent;
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -27,6 +28,10 @@
         h1 {
             text-align: center;
             font color="#fff";
+        }
+
+        img {
+          opacity: 0.5;
         }
 
         form {
@@ -83,7 +88,7 @@
         <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="checkout1.html">Checkout</a>
+        <a class="nav-link" href="checkout1.html">Go Back</a>
       </li>
     </ul>
     <div class="checkout-container">
@@ -99,8 +104,9 @@
                 <option value="paypal">PayPal</option>
                 <option value="cash_on_delivery">Cash on Delivery</option>
             </select>
-            <type="submit" value="Place Order">
-        </form>
+            <a href="orderplaced.html" class="input">Place Order</a>
+            <input type="submit" value="Place Order">
+           
     </div>
     
 </body>

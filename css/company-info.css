@@ -20,6 +20,8 @@ body {
 .navbar-nav li a {
     background-image: linear-gradient(to right, #7b3f00, #954535,#814141, #EADDCA)
     padding: 0 !important; 
+    
+
 
 
 }
@@ -41,7 +43,8 @@ body {
         font-family:font-family: 'Cinzel', serif;
         font-family: 'Sedgwick Ave Display', cursive;
         background-color: #7b3f00;
-        background-image: linear-gradient(to right, #7b3f00, #954535,#541c1c, #EADDCA )
+        background-image: linear-gradient(to right, #7b3f00, #954535,#541c1c, #EADDCA), url("images\butterfloureggs.webp");
+    
     }
     
     #nav-bar {
@@ -61,13 +64,9 @@ body {
     .navbar-nav li a {
         color: #552e05 !important; 
         font-weight: 600; 
-
-    /* Set background image */
- body {
-    background-image: url ('C:\Users\alexa\LearntoCode\capstone1\images\Brown Cookie Shop Logo over and over.png');
-    background-size: cover;
- }
-    
+.container-mt-4 
+   background-image: -moz-linear-gradient(to right, #7b3f00, #954535,#904490;, #EADDCA);
+    }
     </style>
 
-    }
+    

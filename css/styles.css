@@ -92,6 +92,15 @@ font-family: 'Shadows Into Light', cursive;
     text-align:center;
 }
 
+
+#carouselExampleDark {
+    width: 100%; /* Set width to 100% to occupy the full width of the parent container */
+    max-width: 100%; /* Set max-width to 100% to prevent overflow */
+    margin-left: 0; /* Remove any default margin */
+    margin-right: 0; /* Remove any default margin */
+  }
+  
+
     
 
     

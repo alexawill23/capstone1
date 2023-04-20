@@ -10,11 +10,12 @@
 
 .card {
     align-items: center;
+    align-items: stretch;
 }
 
  /* Set background image */
  body {
-    background-image: url('image');
+    background-image: url("images\Brown Cookie Shop Logo for possible background.png"),transparent:100%; 
     background-size: cover;
  }
 
@@ -24,11 +25,18 @@
   }
 
   .container {
-    align-items:center;
+    align-items:stretch;
+    align-items: normal; 
+
 
   }
 
   .body {
     font-family:font-family: 'Cinzel', serif;
     font-family: 'Sedgwick Ave Display', cursive;
+  }
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
