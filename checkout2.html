@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>Checkout</title>
+    <title>The Cookie Shoppe | Checkout</title>
     <style>
         /* Add your custom styles here */
         body {
-            background-image: url('images/1493580637_hot-coffee-with-cookies.gif');
+            background-image: url('images/Brown\ Cookie\ Shop\ Logo\ over\ and\ over.png');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -26,6 +26,7 @@
 
         h1 {
             text-align: center;
+            font color="#fff";
         }
 
         form {
@@ -64,6 +65,27 @@
 </head>
 
 <body>
+    <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Logo image -->
+    <a class="navbar-brand" href="index.html"><img src="images/Brown Cookie Shop Logo.png" height="200" width="200" alt="Cookie Shop" class="logo"></a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Cookies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="checkout1.html">Checkout</a>
+      </li>
+    </ul>
     <div class="checkout-container">
         <h1>Checkout</h1>
         <form action="process_checkout.php" method="post">
@@ -77,9 +99,10 @@
                 <option value="paypal">PayPal</option>
                 <option value="cash_on_delivery">Cash on Delivery</option>
             </select>
-            <input type="submit" value="Place Order">
+            <type="submit" value="Place Order">
         </form>
     </div>
+    
 </body>
 
 </html>

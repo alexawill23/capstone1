@@ -30,8 +30,25 @@ body {
 
 #banner {
     background-image: linear-gradient(to right, #824b0990,#583307);
+    overflow: hidden;
     color:#fff; 
     padding-top: 1.5%;}
+
+   /* Define the animation */
+   @keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* Apply the animation to the body */
+  body {
+    animation: moveGradient 5s linear infinite;
+  }
+
 
     .promo-title {
         font-size:80px
@@ -43,7 +60,10 @@ body {
 
     .p-class {
         font-size: 150px;
-        text-align: center; 
+        text-align: center;
+        font-family: 'Cinzel', serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Shadows Into Light', cursive; 
 
 
     }
@@ -68,7 +88,9 @@ body {
         text align:center;
     }
 
-
+.promo-title{
+    text-align:center;
+}
 
     
 

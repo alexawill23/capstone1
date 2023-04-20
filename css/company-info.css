@@ -30,6 +30,44 @@ body {
     color: #552e05 !important; 
     font-weight: 600; 
 
-    .header {
-        
+    <style>
+    logo {
+          max-width: 200px;
+          height: auto;
+        }
+      </style>
+    body {
+        div-class=bg container; 
+        font-family:font-family: 'Cinzel', serif;
+        font-family: 'Sedgwick Ave Display', cursive;
+        background-color: #7b3f00;
+        background-image: linear-gradient(to right, #7b3f00, #954535,#541c1c, #EADDCA )
+    }
+    
+    #nav-bar {
+        position: sticky; 
+        top: 0;
+        z-index: 10; 
+    }
+    .navbar-nav li a {
+        background-image: linear-gradient(to right, #7b3f00, #954535,#541c1c, #EADDCA)
+        padding: 0 !important; 
+    
+    
+    }
+    .navbar-nav li {
+     padding: 0 10px; 
+    }
+    .navbar-nav li a {
+        color: #552e05 !important; 
+        font-weight: 600; 
+
+    /* Set background image */
+ body {
+    background-image: url ('C:\Users\alexa\LearntoCode\capstone1\images\Brown Cookie Shop Logo over and over.png');
+    background-size: cover;
+ }
+    
+    </style>
+
     }

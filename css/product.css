@@ -1,0 +1,34 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+.col-md-4 {
+    background-image: linear-gradient(to right, #824b0990,#583307);
+    padding-top: 1.5%;
+    color: #fff;
+}
+
+.card {
+    align-items: center;
+}
+
+ /* Set background image */
+ body {
+    background-image: url('image');
+    background-size: cover;
+ }
+
+ .logo {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .container {
+    align-items:center;
+
+  }
+
+  .body {
+    font-family:font-family: 'Cinzel', serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+  }

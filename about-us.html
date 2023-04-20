@@ -5,55 +5,35 @@
   <!-- Include Bootstrap CSS -->
   <link rel="stylesheet" href="css/company-info.css">
 </head>
-<style>
-body {
-    font-family:font-family: 'Cinzel', serif;
-    font-family: 'Sedgwick Ave Display', cursive;
-}
-
-#grad {
-    background-color: rgba(#4e2b04);
-    background-image: linear-gradient(to right,#7b3f00, #954535,#814141, #EADDCA);
-}
-
-#nav-bar {
-    position: sticky; 
-    top: 0;
-    z-index: 10; 
-}
-.navbar-nav li a {
-    background-image: linear-gradient(to right, #7b3f00, #954535,#814141, #EADDCA)
-    padding: 0 !important; 
-
-
-}
-.navbar-nav li {
- padding: 0 10px; 
-}
-.navbar-nav li a {
-    color: #552e05 !important; 
-    font-weight: 600; 
-
-</style>
 <body>
   <!-- Navigation Bar (same as home page) -->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="index.html">The Cookie Shoppe</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/Brown Cookie Shop Logo.png" height="200px" width="200px" alt="Cookie Shop" class="logo"></a>
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
       <li class="nav-item active">
-        <a class="nav-link" href="about-us.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="product.html">Cookies</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact Us</a>
-      </li>
-    </ul>
-  </nav>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">The Cookie Shoppe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Sign In | Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="checkout1.html">Checkout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
   <!-- Main Content -->
   <div class="container mt-4">
     <div class="row">
@@ -66,11 +46,12 @@ body {
         <p>At Cookie Shop, our mission is simple - to spread joy and happiness through our scrumptious cookies. We are dedicated to creating the highest quality cookies that are made with care and attention to detail, using only the freshest, locally-sourced ingredients.</p>
         <h2>Our Team</h2>
         <p>Our team at Cookie Shop is made up of a group of passionate bakers who share the same love for cookies. With years of experience and a commitment to excellence, our team works tirelessly to ensure that every cookie that leaves our kitchen is a true masterpiece.</p>
-        <p>Thank you for choosing Cookie Shop. We look forward to serving you and bringing smiles to your faces with our delicious cookies!</p>
+        <p>Thank you for choosing The Cookie Shoppe. We look forward to serving you and bringing smiles to your faces with our delicious cookies!</p>
         <br>
-        <img src="images/Amina.baker2.jpg" class="rounded float-start" alt="...">
-        <img src="images/Sarah.baker1.jpg" class="rounded float-end" alt="...">
-        <img src="images/Asheena.baker3.webp" class="rounded float-end" alt="....">
+        <img src="images/Amina.baker2.jpg" width="400px" height="300px" class="rounded float-start" alt="woman icing cookies" title="Sarah, the Founder">
+        <img src="images/Sarah.baker1.jpg" width="400px" height="300px" class="rounded float-end" alt="woman holding baked goods" title="Amina, head baker">
+        <img src="images/Asheena.baker3.webp"width="400px" height="300px" class="rounded float-end" alt="woman holding plate of lavendar cookies" title="Ashenna, pastry chef and marketing">
+        <img src="images/lindsey.baker4.jpg"width="400px" height="300px" class="rounded float-end" alt="woman holding tray of cookies title="Lindsey, pastry chef">
       </div>
     </div>
   </div>
