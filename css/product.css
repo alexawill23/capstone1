@@ -2,7 +2,7 @@
     margin: 0; 
     padding: 0;
 }
-.col-md-4 {
+#col-lg-4col-md-6mb-4{
     background-image: linear-gradient(to right, #824b0990,#583307);
     padding-top: 1.5%;
     color: #fff;
@@ -15,7 +15,7 @@
 
  /* Set background image */
  body {
-    background-image: url("images\Brown Cookie Shop Logo for possible background.png"),transparent:100%; 
+    background-color: #583307;
     background-size: cover;
  }
 
@@ -27,12 +27,10 @@
   .container {
     align-items:stretch;
     align-items: normal; 
-
-
-  }
+}
 
   .body {
-    font-family:font-family: 'Cinzel', serif;
+    font-family:'Cinzel', serif;
     font-family: 'Sedgwick Ave Display', cursive;
   }
   .card-group {
