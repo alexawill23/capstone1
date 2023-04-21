@@ -46,13 +46,13 @@ body {
 
   /* Apply the animation to the body */
   body {
-    animation: moveGradient 5s linear infinite;
+    animation: moveGradient 3s linear infinite;
   }
 
 
     .promo-title {
-        font-size:80px
-        font-weight: 600; 
+        font-size:100px
+        font-weight: 300px; 
         margin-top: 100px;
         text-align: center; 
         text-wrap: stretch; 
@@ -100,7 +100,15 @@ font-family: 'Shadows Into Light', cursive;
     margin-right: 0; /* Remove any default margin */
   }
   
+  .carousel-caption {
+    font-size: large;
+    font-weight: 300px;
+    font color: #fff; 
 
+  }
+.container {
+    width: 100%;
+}
     
 
     
