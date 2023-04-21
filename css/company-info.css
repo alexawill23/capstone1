@@ -46,6 +46,11 @@ body {
         background-image: linear-gradient(to right, #7b3f00, #954535,#541c1c, #EADDCA), url("images\butterfloureggs.webp");
     
     }
+
+    .container mt-4 {
+        text-align: center;
+        
+    }
     
     #nav-bar {
         position: sticky; 
@@ -68,5 +73,9 @@ body {
    background-image: -moz-linear-gradient(to right, #7b3f00, #954535,#904490;, #EADDCA);
     }
     </style>
+
+    
+    
+    
 
     
